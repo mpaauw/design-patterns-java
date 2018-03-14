@@ -1,5 +1,8 @@
 package creational.singleton.sample;
 
+/**
+ * Describes a lazily-loaded Singleton class (instance loaded only after request, not during object instantiation.).
+ */
 public class LazyLoadedSingleton {
     private static LazyLoadedSingleton instance = null;
 
