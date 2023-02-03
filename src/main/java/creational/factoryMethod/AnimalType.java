@@ -1,7 +1,7 @@
 package creational.factoryMethod;
 
 public enum AnimalType {
-    Cat,
-    Dog,
-    Fish
+    CAT,
+    DOG,
+    FISH
 }
