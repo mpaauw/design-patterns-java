@@ -4,11 +4,11 @@ public class AnimalFactory {
 
     public Animal generateAnimal(AnimalType animalType) throws Exception {
         switch(animalType) {
-            case Cat:
+            case CAT:
                 return new Cat();
-            case Dog:
+            case DOG:
                 return new Dog();
-            case Fish:
+            case FISH:
                 return new Fish();
             default:
                 throw new Exception("Ahh! New species discovered!");
