@@ -1,4 +1,4 @@
-package behavioral;
+package behavioral.state;
 
 import behavioral.state.Bug;
 import behavioral.state.ButterflyState;
